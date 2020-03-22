@@ -14,7 +14,7 @@ const Header = () => {
                 <a href="/review">Order Review</a>
                 <a href="/inventory">Manage Inventory</a>
                 {
-                    auth.user && <span style={{color:'yellow'}}>Welcome{auth.user.name}</span>
+                    auth.user && <span style={{color:'yellow'}}>Welcome {auth.user.name}</span>
     
                 }
                 {
